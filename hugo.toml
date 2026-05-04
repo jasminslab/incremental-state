@@ -1,0 +1,19 @@
+baseURL = 'https://jasminslab.github.io/incremental-state/'
+languageCode = 'en-us'
+title = 'Incremental State'
+theme = 'PaperMod'
+
+[params]
+    env = "production"
+    title = "Incremental State"
+    description = "Incremental State"
+    defaultTheme = "dark"
+    displayFullPostContent = false
+    showShareButtons = true
+    mainSections = ["posts"]
+    assets = { disableHLJS = false }
+    
+    ShowCodeCopyButtons = true
+    
+    [params.homeInfoParams]
+        Title = "Posts"
