@@ -1,7 +1,7 @@
 ---
 title: "First Blog Post"
-date: 2024-01-15
-draft: false
+date: 2026-05-04
+draft: true
 tags: ["Computer Science"]
 ---
 
