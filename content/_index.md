@@ -7,7 +7,7 @@ tags: ["Computer Science", "Data Engineering", "Software Architecture"]
 
 # The Incremental State
 
-### The Philosophy Behind "The Incremental State"
+### Blog Intro
 
 In tech, Data Engineering and Software Engineering are often treated as two entirely separate disciplines. The truth is simpler: **processing data, especially at scale and in distributed systems, is a software engineering problem.** 
 
