@@ -58,8 +58,8 @@ Stay tuned as the state changes :)
 
 ### Sources
 
-* Modul Description Network Security, https://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2026W&ansicht=KATALOGDATEN&lerneinheitId=204555&lang=en (July 2026, online)
-* OSI Model. https://en.wikipedia.org/wiki/OSI_model
-* What is IPsec. https://www.cloudflare.com/learning/network-layer/what-is-ipsec/ 
+* Module Description Network Security, https://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2026W&ansicht=KATALOGDATEN&lerneinheitId=204555&lang=en (July 2026, online)
+* OSI Model. https://en.wikipedia.org/wiki/OSI_model (July 2026)
+* What is IPsec. https://www.cloudflare.com/learning/network-layer/what-is-ipsec/ (July 2026)
 * BeyondCorp. Zero Trust Computer Security concepts. https://en.wikipedia.org/wiki/BeyondCorp (July 2026)
 * DNS Spoofing. https://en.wikipedia.org/wiki/DNS_spoofing (July 2026)
