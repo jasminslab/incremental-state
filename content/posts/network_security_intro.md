@@ -1,5 +1,5 @@
 ---
-title:  "Why Network Security Knowledge belongs in every Data Engineer's Toolkit"
+title:  "Intro to Network Security from a Data Engineering Perspective"
 date: 2026-08-29T09:00:00+02:00
 draft: false
 tags: 
