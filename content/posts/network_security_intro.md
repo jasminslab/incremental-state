@@ -11,7 +11,6 @@ categories:
     - "Infrastructure"
 ---
 
-
 Starting this fall, I'm taking the **Network Security MSc module** as part of my CAS in Computer Science at ETH Zurich.
 
 Network Security is vital in Data Engineering because usually data is distributed around different systems. And therefore: ***Every data pipeline is only as trustworthy as the network it runs on.***
@@ -35,18 +34,16 @@ Understanding where security mechanisms live across the network layers fundament
 * **BGP (Border Gateway Protocol) Security:** The moment data crosses network boundaries, data packets rely on inter-domain routing between Autonomous Systems (AS is a big network. Interconnected AS(s) make up the internet). Unsecured BGP puts data replication at risk of traffic hijacking. (Image: attack vector through misrouting traffic)
 <img src="bgp_misrouting_traffic.png" width="75%">
 
-
-
-* **IPsec & VPN Tunnels:** Encrypted tunnels for network to network communication. IPsec is a so called site-to-site-VPN. The following visualization illustrates an IPsec Tunnel where Gateway A encrypts and encapsulates an original payload from Network A with a new outer IP header for secure transport across the network. <img src="ipsec_tunnel.png" width="75%">
+* **IPsec, VPN Tunnels & Wireguard:** Encrypted tunnels for network to network communication. IPsec is a so called site-to-site-VPN. The following visualization illustrates an IPsec Tunnel where Gateway A encrypts and encapsulates an original payload from Network A with a new outer IP header for secure transport across the network. <img src="ipsec_tunnel.png" width="75%">
+A more modern alternative is WireGuard. WireGuard is a modern protocol with fewer configuration options than IPsec. IPsec is still very predominant, largely because of its native support across many systems. 
 
 * **Network Segmentation:** Isolation via virtual networks or subnets allows isolating ingestion and to restrict lateral movement after a breach.
 <img src="network_segmentation.png" width="40%">
 
-
 * **(D)DoS Attacks & Defenses:** Attackers flood a network or a service with overwhelming traffic.
+
 * **TLS & Mutual TLS (mTLS):** Standard TLS only authenticates the server. Moving to mTLS establishes identities of the peers. In distributed systems, mTLS guarantees that services don't just encrypt payloads, they continuously authenticate both ends of the connection.
 <img src="tls_mtls.png" width="50%">
-
 
 #
 #### Quick Recap: 7-Layer Network Model
@@ -57,7 +54,7 @@ Internet protocols are typically discussed along the OSI model (7 layers) which 
 * Layer 6: Presentation Layer (e.g. data encryption)
 * Layer 5: Session Layer (session management)
 * Layer 4: Transport Layer (TCP, UDP, TLS/mTLS)
-* Layer 3: Network Layer (IP) <- IPsec encrypts here entire packets for secure data transit across networks.
+* Layer 3: Network Layer (IP) <- IPsec and Wireguard encrypt here entire packets for secure data transit across networks.
 * Layer 2: Data Link Layer (Ethernet, Switch) <- Network segmentation & Subnets live here.
 * Layer 1: Physical Layer (Hardware, optical fiber, datacenter infrastructure)  <- DDos Resilience & physical security are built here.
 
@@ -83,7 +80,6 @@ Stay tuned as the state changes :)
 * What is IPsec. https://www.cloudflare.com/learning/network-layer/what-is-ipsec/ (July 2026)
 * BeyondCorp. Zero Trust Computer Security concepts. https://en.wikipedia.org/wiki/BeyondCorp (July 2026)
 * DNS Spoofing. https://en.wikipedia.org/wiki/DNS_spoofing (July 2026)
-
 
 #### Support of Agentic AI:
 * Text has been refined with Google Gemini and Claude
