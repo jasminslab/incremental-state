@@ -1,6 +1,6 @@
 ---
 title:  "Why Network Security Knowledge belongs in every Data Engineer's Toolkit"
-date: 2026-07-23T09:00:00+02:00
+date: 2026-08-29T09:00:00+02:00
 draft: false
 tags: 
     - "Data Engineering"
@@ -48,8 +48,6 @@ Understanding where security mechanisms live across the network layers fundament
 <img src="tls_mtls.png" width="50%">
 
 
-* **DNS Security:** Poisoned DNS caches can misroute sensitive ETL jobs.
-
 #
 #### Quick Recap: 7-Layer Network Model
 
@@ -62,8 +60,8 @@ Internet protocols are typically discussed along the OSI model (7 layers) which 
 * Layer 3: Network Layer (IP) <- IPsec encrypts here entire packets for secure data transit across networks.
 * Layer 2: Data Link Layer (Ethernet, Switch) <- Network segmentation & Subnets live here.
 * Layer 1: Physical Layer (Hardware, optical fiber, datacenter infrastructure)  <- DDos Resilience & physical security are built here.
-#
 
+#
 ### Data Platform Implications
 
 As data pipelines scale, network context becomes just as critical as storage and compute resources.
@@ -77,7 +75,6 @@ I'll be sharing architectural takeaways and lessons learned as the semester prog
 Stay tuned as the state changes :)
 
 #
-
 ### Sources
 
 * Module Description Network Security, https://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2026W&ansicht=KATALOGDATEN&lerneinheitId=204555&lang=en (July 2026, online)
