@@ -13,7 +13,7 @@ categories:
 
 Starting this fall, I'm taking the **Network Security MSc module** as part of my CAS in Computer Science at ETH Zürich.
 
-Network Security is vital in Data Engineering because usually data is distributed around different systems. And therefore: ***Every data pipeline is only as trustworthy as the network it runs on.***
+Network Security is vital in Data Engineering because usually data is distributed around different systems. And therefore: A data pipeline's reliability and trustworthiness rests on multiple pillars. But it all starts with the network it runs on #NetworkSecurity
 
 I'm really excited to deep dive into network security techniques and how networks get compromised (attack vectors). It's a super exciting space, especially when you look from a Data Engineering angle. Below are a few teasers on why I find this field so interesting.
 
