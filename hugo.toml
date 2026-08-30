@@ -9,7 +9,7 @@ theme = 'PaperMod'
     description = "Incremental State"
     defaultTheme = "dark"
     displayFullPostContent = false
-    showShareButtons = true
+    showShareButtons = false
     mainSections = ["posts"]
     assets = { disableHLJS = false }
     
