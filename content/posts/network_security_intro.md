@@ -32,18 +32,18 @@ On the of top that, data stacks are nowadays often decentralized across multi-cl
 Understanding where security mechanisms live across the network layers fundamentally changes how we design robust and secure data architectures. Here are a few topics I'm particularly looking forward to:
 
 * **BGP (Border Gateway Protocol) Security:** The moment data crosses network boundaries, data packets rely on inter-domain routing between Autonomous Systems (AS is a network run by one entity. Interconnected ASes make up the internet). Unsecured BGP puts data replication at risk of traffic hijacking. (Image: attack vector through misrouting traffic)
-<img src="bgp_misrouting_traffic.png" width="75%">
+![BGP Misrouting Traffic](/incremental-state/netsec_intro_images/bgp_misrouting_traffic.png)
 
-* **VPN Tunnels: IPsec & Wireguard:** Encrypted tunnels for network to network communication. IPsec is a so called site-to-site-VPN. The following visualization illustrates an IPsec Tunnel where Gateway A encrypts and encapsulates an original payload from Network A with a new outer IP header for secure transport across the network. <img src="ipsec_tunnel.png" width="75%">
+* **VPN Tunnels: IPsec & Wireguard:** Encrypted tunnels for network to network communication. IPsec is a so called site-to-site-VPN. The following visualization illustrates an IPsec Tunnel where Gateway A encrypts and encapsulates an original payload from Network A with a new outer IP header for secure transport across the network. ![IPsec Tunnel](/incremental-state/netsec_intro_images/ipsec_tunnel.png)
 A more modern alternative is WireGuard. WireGuard is a modern protocol with fewer configuration options than IPsec. IPsec is still very predominant, largely because of its native support across many systems. 
 
 * **Network Segmentation:** Isolation via virtual networks or subnets allows isolating ingestion and to restrict lateral movement after a breach.
-<img src="network_segmentation.png" width="40%">
+![Network Segmentation](/incremental-state/netsec_intro_images/network_segmentation.png)
 
 * **(D)DoS Attacks & Defenses:** Attackers flood a network or a service with overwhelming traffic.
 
 * **TLS & Mutual TLS (mTLS):** Standard TLS only authenticates the server. Moving to mTLS establishes identities of the client and server. In distributed systems, mTLS guarantees that services don't just encrypt payloads, they continuously authenticate both ends of the connection.
-<img src="tls_mtls.png" width="50%">
+![TLS_mTLS](/incremental-state/netsec_intro_images/tls_mtls.png)
 
 #
 #### Quick Recap: 7-Layer Network Model
